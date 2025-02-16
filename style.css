@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.heroSection{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    width: 100vw;
+    height: 70vh;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+   
+}
+.navbar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    padding: 16px 48px;
+   
+}
+.navbar a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navbar_Right{
+    display: flex;
+    gap: 20px   ;
+    padding-right: 30px;
+}
+.link{
+    padding: 8px;
+    font-size: 16px;
+}
+.navbar_Right .user_icon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid white;
+   position: relative;
+   top: 9px;
+   right: 7px;
+    
+   
+}
+.navbar .getapp{
+    position: relative;
+    right: 186px;
+    font-size: 14px;
+}
+svg{
+    position: relative;
+    left: 72px;
+}
+
+
+
