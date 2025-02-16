@@ -1,2 +1,2 @@
-# This is my Zomato Laning Page Clone
+# This is my Zomato Landing Page Clone
 ## First commit is done 
