@@ -59,7 +59,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 100px;
+    left: 50px;
+    font-size: 14px;
 }
 
 @media only screen and (max-width:600px)  {
@@ -73,6 +74,36 @@
     .heroSection{
         max-height: 80vh;
     }
+}
+.heroSection-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+ height: calc(70vh - 72px);          /*  It will calculate the height through hersosection(70vh) and navbar (72px)  */
+    
+}
+.heroSection-Container img{
+    
+    width: 280px;
+    height: 60px;
+    position: relative;
+    bottom: 40px;
+    right: 15px;
+   
+    
+
+}
+.heroSection-Container p{
+    font-size: 36px;
+    font-weight: 380;
+    position: relative;
+    bottom: 34px;
+}
+.heroSection-input{
+    background-color: white;
+    padding: 10px;
 }
 
 
